@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+gap: 2rem;
+position: relative;
+transition: all 1s;
+}
+.card p{
+  text-align: center;
+}
+.overlay{
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  background-color: gold;
+  position: absolute;
+  z-index: -1;
+  transition: all 1s;
+}
+.card:hover {
+  transform:scale(0.3) ;
+
+
+}

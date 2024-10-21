@@ -1,0 +1,22 @@
+.navbar{
+
+  background-color: black;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+}
+.image{
+  padding: 6rem 0;
+}
+.card{
+  border: none;
+}
+.card h1{
+  text-align: center;
+}
+.card p{
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+#banner {
+  background-color:$secondary-color ;
+  padding: 50px 0;
+  text-align: center;
+    h1 {
+      
+      color: yellowgreen;
+    }
+    p {
+      padding-top: 10px;
+      color: yellowgreen;
+    }
+    .primary-btn{margin: 2rem 0;
+    @extend %primary-btn;
+    
+  }
+
+   
+  
+}

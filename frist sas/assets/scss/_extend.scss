@@ -1,0 +1,15 @@
+%primary-btn {
+  width: 
+  100px;
+  height: 48px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: blue;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(5, 5, 153);
+    color: #fff;
+  }
+}

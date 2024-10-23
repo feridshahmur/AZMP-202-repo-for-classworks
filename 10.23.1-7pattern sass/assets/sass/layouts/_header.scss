@@ -1,0 +1,40 @@
+header {
+  .head {
+    font-family: $font-family;
+    padding: 3rem 0;
+    @include flexBox(space-between, center);
+    ul {
+      display: flex;
+      gap: 1.5rem;
+      li {
+        position: relative;
+        .hot {
+          position: absolute;
+          top: 0;
+          right: 0;
+          span {
+            background-color: red;
+            padding: 10px;
+          }
+        }
+        a {
+          color: #000;
+          font-weight: bold;
+        }
+      }
+      .hot-link {
+        margin-top: -4px;
+        sup {
+          background-color: red;
+          padding: 4px;
+          color: white;
+          border-radius: 6px;
+        }
+      }
+    }
+    .icons-nav {
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+}
